@@ -1,0 +1,1321 @@
+
+* {
+    
+  
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+body
+{
+    font-family: 'MOSK';
+}
+@font-face {
+    font-family: 'mosk';
+    src: url('../fonts/MOSKEXTRA-BOLD800.ttf');
+}
+
+/*********** starting navbar *************/
+.navbar
+{
+    background-color: #0b435c;
+}
+.navbar .container
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.navbar .container .row
+{
+    width: 100%;
+}
+.navbar .container .bar
+{
+    
+}
+.navbar .container .bar img
+{
+    cursor: pointer;
+}
+.navbar .container .bar .main
+{
+    position: absolute;
+    /* width: 554px; */
+    background-color: black;
+    padding: 17px 25px;
+    left: -103px;
+    top: 57px;
+    background-color: transparent;
+    border: 2px solid #dab679;
+    box-shadow: 3px 3px 15px #fff;
+    display: none;
+    line-height: 2.5;
+}
+.navbar .container .bar .main > li
+{
+        list-style: none;
+    /* display: -webkit-inline-box; */
+    color: #dab679;
+    margin-right: 21.5px;
+    margin-left: 21.5px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.navbar .container .bar .main > li:hover
+{
+    color: #fff;
+}
+.navbar .container .bar .Services
+{
+    position: relative;
+}
+.navbar .container .bar .Services .branch
+{
+    position: absolute;
+  background-color: aliceblue;
+  width: 245px;
+  padding: 10px 20px;
+  top: 40px;
+  left: -30px;
+  background-color: #0b435c;
+    box-shadow: 3px 3px 15px #fff;
+    display: none;
+}
+.navbar .container .bar .Services .branch > li
+{
+      list-style: none;
+  font-size: 15px;
+    transition: all .3s ease-in-out;
+}
+.navbar .container .bar .Services .branch > li:hover
+{
+    padding-left: 5px;
+    color: #dab679;
+}
+.navbar .container .icons
+{
+    text-align: right;
+}
+.navbar .container .icons a
+{
+    text-decoration: none;
+}
+.navbar .container .icons i
+{
+      color: #dab679;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: 25px;
+  font-style: normal;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.navbar .container .icons img
+{
+    width: 30px;
+    margin-left: 20px;
+    margin-top: -9px;
+}
+@media (max-width: 576px)
+{
+    .navbar
+    {
+    
+    }
+    .navbar .container .icons
+    {
+        width: 83%;
+    }
+    .navbar .container .bar
+    {
+        width: 15%;
+    }
+    .navbar .container .bar .main 
+    {
+        left: 13px;
+        top: 57px;
+        width: 297px;
+        background-color: #0b435c;
+        z-index: 999;
+        text-align: center;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .navbar .container .icons
+    {
+        width: 83%;
+    }
+    .navbar .container .bar
+    {
+        width: 15%;
+    }
+    .navbar .container .bar .main 
+    {
+        left: 13px;
+        top: 57px;
+        width: 297px;
+        background-color: #0b435c;
+        z-index: 999;
+        text-align: center;
+    }
+}
+/***********
+
+
+@media (min-width: 789px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)
+*************/
+/*********** End navbar *************/
+
+
+/***********  *************/
+/***********  *************/
+
+
+/*********** starting intro *************/
+.intro
+{
+    background-color: #052a3c;
+    height: 695px;
+}
+.intro .container
+{
+    padding-bottom: 100px;
+    padding-top: 120px;
+}
+.intro .container .star
+{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+.intro .container .mountain
+{
+    position: absolute;
+    right: 150px;
+    top: 100px;
+}
+.intro .container h1
+{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.intro .container h2
+{
+    color: #dab679;
+    font-weight: bold;
+    text-align: center;
+}
+.intro .imag
+{
+    position: relative;
+}
+.intro .imag .second
+{
+    width: 100%; 
+    position: absolute;
+    top: -49px;
+}
+.intro .imag .clocks-left
+{
+    position: absolute;
+    left: 396px;
+    top: 127px;
+}
+.intro .imag .clocks-right
+{
+    position: absolute;
+    right: 390px;
+    top: 127px;
+}
+.intro .imag .palace-clocks
+{
+    position: absolute;
+    top: 125px;
+    left: 398px;
+}
+.intro .imag .palace-center
+{
+    position: absolute;
+    top: 107px;
+    left: 597px;
+}
+.intro .imag .palace-dote
+{
+    position: absolute;
+    top: 253px;
+    left: 677px;
+}
+.intro .imag .intro-top-left
+{
+    position: absolute;
+}
+.intro .imag .intro-bottom-left
+{
+    position: absolute;
+    bottom: -323px;
+    left: 0px;
+}
+.intro .imag .intro-top-right
+{
+    position: absolute;
+    right: 0;
+}
+.intro .imag .intro-bottom-right
+{
+    position: absolute;
+    right: 0px;
+    bottom: -324px;
+}
+.intro .imag hr
+{
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid #dab679;
+    position: relative;
+    bottom: -325px;
+}
+@media (max-width: 576px)
+{
+    .intro
+    {
+        height: 760px;
+        overflow: hidden;
+    }
+    .intro .container .star 
+    {
+        top: 100px;
+        left: 0;
+        width: 170px;
+    }
+    .intro .container .mountain 
+    {
+        right: 0px;
+        top: 90px;
+        width: 190px;
+    }
+    .intro .container h2
+    {
+        font-size: 35px;
+    }
+    .intro .imag hr
+    {
+        bottom: -403px;
+    }
+    .intro .imag .second 
+    {
+        width: 640px;
+        left: -137px;
+    }
+    .intro .imag .clocks-left 
+    {
+        position: absolute;
+        left: 57px;
+        top: 38px;
+        width: 55px;
+    }
+    .intro .imag .clocks-right 
+    {
+        position: absolute;
+        right: 61px;
+        top: 39px;
+        width: 55px;
+    }
+    .intro .imag .palace-dote 
+    {
+        position: absolute;
+        top: 92px;
+        left: 185px;
+    }
+    .intro .imag .palace-center 
+    {
+        position: absolute;
+        top: 25px;
+        left: 147px;
+        width: 75px;
+    }
+    .intro .imag .intro-top-left 
+    {
+        position: absolute;
+        bottom: -300px;
+        width: 150px;
+    }
+    .intro .imag .intro-top-right 
+    {
+        position: absolute;
+        right: 0;
+        bottom: -300px;
+        width: 150px;
+    }
+    .intro .imag .intro-bottom-left 
+    {
+        position: absolute;
+        bottom: -400px;
+        left: -30px;
+        width: 200px;
+    }
+    .intro .imag .intro-bottom-right 
+    {
+        position: absolute;
+        right: -12px;
+        bottom: -400px;
+        width: 200px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .intro
+    {
+        height: 500px;
+        overflow: hidden;
+    }
+    .intro .container .star 
+    {
+        top: 100px;
+        left: 0;
+        width: 190px;
+    }
+    .intro .container .mountain 
+    {
+        right: 0px;
+        top: 96px;
+        width: 197px;
+    }
+    .intro .imag hr
+    {
+        bottom: -139px;
+    }
+    .intro .imag .second 
+    {
+        width: 677px;
+        left: -0px;
+    }
+    .intro .imag .clocks-left 
+    {
+        position: absolute;
+        left: 202px;
+        top: 43px;
+        width: 55px;
+    }
+    .intro .imag .clocks-right 
+    {
+        position: absolute;
+        right: 205px;
+        top: 43px;
+        width: 55px;
+    }
+    .intro .imag .palace-dote 
+    {
+        position: absolute;
+        top: 101px;
+        left: 340px;
+    }
+    .intro .imag .palace-center 
+    {
+        position: absolute;
+        top: 32px;
+        left: 302px;
+        width: 75px;
+    }
+    .intro .imag .intro-top-left 
+    {
+        position: absolute;
+        bottom: -50px;
+        width: 150px;
+    }
+    .intro .imag .intro-top-right 
+    {
+        position: absolute;
+        right: 0;
+        bottom: -50px;
+        width: 150px;
+    }
+    .intro .imag .intro-bottom-left 
+    {
+        position: absolute;
+        bottom: -137px;
+        left: -30px;
+        width: 200px;
+    }
+    .intro .imag .intro-bottom-right 
+    {
+        position: absolute;
+        right: -22px;
+        bottom: -137px;
+        width: 200px;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .intro
+    {
+        height: 500px;
+        overflow: hidden;
+    }
+    .intro .container .star 
+    {
+        top: 100px;
+        left: 0;
+        width: 190px;
+    }
+    .intro .container .mountain 
+    {
+        right: 0px;
+        top: 96px;
+        width: 197px;
+    }
+    .intro .imag hr
+    {
+        bottom: -139px;
+    }
+    .intro .imag .second 
+    {
+        width: 675px;
+        left: 110px;
+    }
+    .intro .imag .clocks-left 
+    {
+        position: absolute;
+        left: 315px;
+        top: 43px;
+        width: 55px;
+    }
+    .intro .imag .clocks-right 
+    {
+        position: absolute;
+        left: 530px;
+        top: 43px;
+        width: 55px;
+    }
+    .intro .imag .palace-dote 
+    {
+        position: absolute;
+        top: 101px;
+        left: 447px;
+    }
+    .intro .imag .palace-center 
+    {
+        position: absolute;
+        top: 32px;
+        left: 410px;
+        width: 75px;
+    }
+    .intro .imag .intro-top-left 
+    {
+        position: absolute;
+        bottom: -50px;
+        width: 150px;
+    }
+    .intro .imag .intro-top-right 
+    {
+        position: absolute;
+        right: 0;
+        bottom: -50px;
+        width: 150px;
+    }
+    .intro .imag .intro-bottom-left 
+    {
+        position: absolute;
+        bottom: -137px;
+        left: -30px;
+        width: 200px;
+    }
+    .intro .imag .intro-bottom-right 
+    {
+        position: absolute;
+        right: -22px;
+        bottom: -137px;
+        width: 200px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .intro .imag .intro-top-left 
+    {
+        position: absolute;
+        width: 200px;
+    }
+    .intro .imag .intro-bottom-left 
+    {
+        position: absolute;
+        bottom: -253px;
+        left: 0px;
+        width: 200px;
+    }
+    .intro .imag .intro-top-right 
+    {
+        position: absolute;
+        right: 0;
+        width: 200px;
+    }
+    .intro .imag .intro-bottom-right 
+    {
+        position: absolute;
+        right: 0px;
+        bottom: -253px;
+        width: 200px;
+    }
+    .intro .imag .clocks-left 
+    {
+        position: absolute;
+        left: 329px;
+        top: 93px;
+        width: 100px;
+    }
+    .intro .imag .palace-center 
+    {
+        position: absolute;
+        top: 85px;
+        left: 491px;
+        width: 115px;
+    }
+    .intro .imag .clocks-right 
+    {
+        position: absolute;
+        right: 319px;
+        top: 94px;
+        width: 100px;
+    }
+    .intro .imag .palace-dote 
+    {
+        position: absolute;
+        top: 197px;
+        left: 550px;
+    }
+    .intro .imag hr
+    {
+        bottom: -255px;
+    }
+}
+/*********** End intro *************/
+
+
+/***********  *************/
+/***********  *************/
+
+
+/*********** starting work *************/
+.work
+{
+    background-color: #052a3c;
+    height: 960px;
+    overflow: hidden;
+    position: relative;
+}
+.work .container
+{
+    padding-top: 70px;
+}
+.work .container h1
+{
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.work .container h2
+{
+    color: #dab679;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.work .container img
+{
+    
+}
+.work .container p
+{
+    color: #fff;
+    text-align: center;
+}
+.work .container .imag
+{
+    position: relative;
+}
+.work .container .work-left
+{
+    
+}
+.work .container .work-right
+{
+    
+}
+.work .container .work-down
+{
+    position: absolute;
+    left: 152px;
+    top: -34px;
+}
+.work .container .work-up
+{
+    position: absolute;
+    left: -136px;
+}
+.work .container .line-1
+{
+    position: absolute;
+    left: 515px;
+    top: 337px;
+}
+@media (max-width: 576px)
+{
+    .work
+    {
+        height:  1535px;
+        overflow: hidden;
+    }
+    .work .container .work-left 
+    {
+        margin-left: 65px;
+        margin-bottom: 30px;
+    }
+    .work .container .work-down 
+    {
+        position: absolute;
+        left: 0px;
+        top: -34px;
+        width: 350px;
+    }
+    .work .container .work-left
+    {
+        margin-bottom: 70px;
+    }
+    .work .container .work-up 
+    {
+        position: absolute;
+        left: -132px;
+        width: 600px;
+        top: -11px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .work
+    {
+        height:  1535px;
+        overflow: hidden;
+    }
+    .work .container .work-left 
+    {
+        margin-left: 155px;
+        margin-bottom: 70px;
+    }
+    .work .container .work-down 
+    {
+        position: absolute;
+        left: 0px;
+        top: -34px;
+        width: 515px;
+    }
+    .work .container .work-up 
+    {
+        position: absolute;
+        left: -158px;
+        width: 800px;
+        top: 0px;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .work
+    {
+        overflow: hidden;
+    }
+    .work .container .work-down 
+    {
+        position: absolute;
+        left: 81px;
+        top: 25px;
+        width: 515px;
+    }
+    .work .container .work-up 
+    {
+        position: absolute;
+        left: -158px;
+        width: 955px;
+        top: 65px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .work
+    {
+        overflow: hidden;
+    }
+    .work .container .work-down 
+    {
+        position: absolute;
+        left: 145px;
+        top: 25px;
+        width: 650px;
+    }
+    .work .container .work-up 
+    {
+        position: absolute;
+        left: -119px;
+        width: 1129px;
+        top: 65px;
+    }
+}
+/*********** End work *************/
+
+
+/***********  *************/
+/***********  *************/
+
+
+/*********** starting creative *************/
+.creative
+{
+    /*background-color: #f9f5ec;*/
+    height: 2082px;
+    position: relative;
+    background: url('../img/BG.png');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -0-background-size:cover;
+    background-size:cover;
+}
+.creative .container
+{
+    
+}
+.creative .container .method
+{
+    width: 65%;
+    background-color: #fff;
+    margin: auto;
+    padding: 40px 50px;
+    position: relative;
+    top: -70px;
+    z-index: 99;
+}
+.creative .container h2
+{
+    color: #012b3c;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.creative .container p
+{
+    color: #012b3c;
+    font-weight: 500;
+}
+.creative .container .research
+{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 290px;
+    position: absolute;
+    left: 23%;
+    top: 465px;
+    z-index: 99;
+}
+.creative .container .research h2, 
+.creative .container .marketing h2, 
+.creative .container .desgin h2, 
+.creative .container .time h2
+{
+    margin-bottom: 5px;
+}
+.creative .container .marketing
+{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 290px;
+    position: absolute;
+    right: 23%;
+    top: 750px;
+    z-index: 99;
+}
+.creative .container .desgin
+{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 290px;
+    position: absolute;
+    left: 23%;
+    top: 1015px;
+    z-index: 99;
+}
+.creative .container .time
+{
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 290px;
+    position: absolute;
+    right: 23%;
+    top: 1250px;
+    z-index: 99;
+}
+.creative .container .palace2
+{
+    position: absolute;
+    top: 1670px;
+    left: 20%;
+    z-index: 99;
+}
+.creative .container .palace2 img
+{
+    
+}
+.creative .container .lines
+{
+    position: absolute;
+    z-index: 9;
+    top: -171px;
+    left: 16.5%;
+    width: 654px;
+}
+@media (max-width: 576px)
+{
+    .creative
+    {
+        height: 2563px;
+    }
+    .creative .container h2
+    {
+        font-size: 25px !important;
+    }
+    .creative .container .method
+    {
+        width: 100%;
+    }
+    .creative .container p
+    {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .creative .container .research 
+    {
+        left: 11%;
+        top: 756px;
+    }
+    .creative .container .marketing
+    {
+        left: 11%;
+        top: 1230px
+    }
+    .creative .container .desgin
+    {
+        left: 11%;
+        top: 1669px;
+    }
+    .creative .container .time
+    {
+        left: 11%;
+        top: 2024px;
+    }
+    .creative .container .palace2 
+    {
+        position: absolute;
+        top: 2382px;
+        left: -1%;
+    }
+    .creative .container .palace2 img 
+    {
+        width: 380px;
+    }
+    .creative .container .lines
+    {
+        display: none;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .creative
+    {
+        height: 2530px;
+    }
+    .creative .container h2
+    {
+        font-size: 25px !important;
+    }
+    .creative .container .method
+    {
+        width: 100%;
+    }
+    .creative .container .method .for-img
+    {
+        text-align: center;
+    }
+    .creative .container p
+    {
+        margin-top: 25px;
+        text-align: center;
+    }
+    .creative .container .research 
+    {
+        left: 28%;
+        top: 611px;
+    }
+    .creative .container .marketing
+    {
+        left: 28%;
+        top: 1085px
+    }
+    .creative .container .desgin
+    {
+        left: 28%;
+        top: 1524px;
+    }
+    .creative .container .time
+    {
+        left: 28%;
+        top: 1879px;
+    }
+    .creative .container .palace2 
+    {
+        position: absolute;
+        top: 2280px;
+        left: 12%;
+    }
+    .creative .container .palace2 img 
+    {
+        width: 525px;
+    }
+    .creative .container .lines
+    {
+        display: none;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .creative
+    {
+        height: 2710px;
+    }
+    .creative .container .marketing
+    {
+        top: 1150px;
+    }
+    .creative .container .research
+    {
+        top: 670px;
+    }
+    .creative .container .desgin
+    {
+        top: 1635px;
+    }
+    .creative .container .time
+    {
+        top: 2000px;
+    }
+    .creative .container .palace2 
+    {
+        top: 2400px;
+        left: 14%;
+    }
+    .creative .container .palace2 img 
+    {
+        width: 650px;
+    }
+    .creative .container .lines
+    {
+        display: none;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .creative .container .research
+    {
+        top: 530px;
+    }
+    .creative .container .palace2
+    {
+        left: 11%;
+    }
+    .creative .container .lines
+    {
+        left: 7.5%;
+    }
+}
+/*********** End creative *************/
+
+
+/***********  *************/
+/***********  *************/
+
+
+/*********** starting latest *************/
+.latest
+{
+    background-color: #f1e4d1;
+    position: relative;
+}
+.latest .container
+{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.latest .container h5
+{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 26px;
+    color: #022b3d;
+}
+.latest .container h2
+{
+    color: #022b3d;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+.latest .container p
+{
+    color: #022b3d;
+    text-align: center;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+.latest .container img
+{
+    position: absolute;
+    top: 60px;
+    left: 14.5%;
+}
+.latest .container .latest-top
+{
+    position: absolute;
+}
+.latest .container .latest-bottom
+{
+    position: absolute;
+    top: 350px;
+}
+@media (max-width: 576px)
+{
+    .latest .container .latest-top
+    {
+        width: 340px;
+        left: 14px;
+    }
+    .latest .container h5
+    {
+        font-size: 20px;
+    }
+    .latest .container h2
+    {
+        font-size: 30px;
+    }
+    .latest .container .latest-bottom 
+    {
+        position: absolute;
+        top: 435px;
+        width: 340px;
+        left: 14px;
+    }
+    
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+        .latest .container .latest-top
+    {
+        width: 500px;
+    }
+    .latest .container h5
+    {
+        font-size: 20px;
+    }
+    .latest .container h2
+    {
+        font-size: 30px;
+    }
+    .latest .container .latest-bottom 
+    {
+        top: 375px;
+        width: 500px;;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .latest .container .latest-top
+    {
+        width: 630px;
+    }
+    .latest .container h5
+    {
+        font-size: 20px;
+    }
+    .latest .container h2
+    {
+        font-size: 30px;
+    }
+    .latest .container .latest-bottom 
+    {
+        top: 375px;
+        width: 630px;;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .latest .container .latest-top
+    {
+        width: 750px;
+    }
+    .latest .container .latest-bottom 
+    {
+        width: 750px;
+    }
+}
+/***********
+
+
+
+
+*************/
+/*********** End latest *************/
+
+
+/***********  *************/
+/***********  *************/
+
+
+/*********** starting copyright *************/
+.copyright
+{
+    background-color: #052a3c;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.copyright p
+{
+    color: #fff;
+    text-align: center;
+}
+/***********
+@media (max-width: 576px)
+@media (min-width: 577px) and (max-width: 768px)
+@media (min-width: 789px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)
+*************/
+/*********** End copyright *************/
+
+
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********
+@media (max-width: 576px)
+@media (min-width: 577px) and (max-width: 768px)
+@media (min-width: 789px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)
+*************/
+
+
+
+/***********media query  *************/
+@media (max-width: 576px)
+{
+    .container
+    {
+        width: 360px;
+    }
+}
+@media (min-width: 576px)
+{
+    .container
+    {
+        width: 540px;
+    }
+}
+@media (min-width: 768px)
+   
+{
+    .container
+    {
+        width: 720px;
+    }
+}
+@media (min-width: 992px)
+ 
+{
+    .container
+    {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .container
+    {
+        width: 1200px;
+    }
+}
+/******* End @media *********/
+/***********
+@media (max-width: 576px)
+@media (min-width: 577px) and (max-width: 768px)
+@media (min-width: 789px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)
+
+*************/
+/*********** End audio  *************/
+
+
+/***********  *************/
+/***********  *************/
+/***********  *************/
+/***********  *************/
+
+
+
+
+/***********media query  *************/
+@media (max-width: 576px)
+{
+    .container
+    {
+        width: 360px;
+    }
+}
+@media (min-width: 576px)
+{
+    .container
+    {
+        width: 540px;
+    }
+}
+@media (min-width: 768px)
+   
+{
+    .container
+    {
+        width: 720px;
+    }
+}
+@media (min-width: 992px)
+ 
+{
+    .container
+    {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .container
+    {
+        width: 1200px;
+    }
+}
+/******* End @media *********/
